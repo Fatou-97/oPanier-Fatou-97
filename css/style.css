@@ -276,3 +276,28 @@ footer {
 }
 
 /*** END FOOTER  ***/
+
+
+/*** MEDIA QUERIES */
+
+@media (max-width: 800px) {
+    .header-picture {
+        display: none;
+    }
+
+    .nav {
+        background-color: bisque;
+        margin-top: 10px;
+    }
+
+    .nav-item-link {
+        padding: 8px 10px;
+        background-color: #fff;
+
+    }
+
+    .header-picture {
+        display: none;
+    }
+
+}
