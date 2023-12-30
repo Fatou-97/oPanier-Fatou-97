@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oPanier</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+
+        <a href="./index.html" class="title-main">
+            <h1>o'Panier</h1><span class="title-main2">Fruits et Légumes</span>
+        </a>
+
+
+        <div class="title-sub">
+            Fruit and vegetable website
+        </div>
+
+        <div>
+            <img class="header-picture" src="https://blendsmooth.fr/wp-content/uploads/2020/12/fruits-et-legumes.jpg"
+                alt="">
+        </div>
+
+        <nav class="nav">
+
+
+            <ul class="nav-links">
+                <li class="nav-item">
+
+                    <a class="nav-item-link nav-item-link-active " href="./index.html">Accueil</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-item-link" href="./panier.html">Panier</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-item-link" href="../html/contact.html">Contact</a>
+
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+        <h1 class="title-panier">Votre Panier</h1>
+
+        <form class="containerPanier">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fruit</th>
+                        <th>Prix</th>
+                        <th>Quantité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tableRow">
+                        <td>Strawberry</td>
+                        <td>5.99€</td>
+                        <td>
+                            <input class="quantity" type="text">
+                            <button class="delete"> Supprimer </button>
+                        </td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td>Broccoli</td>
+                        <td>8.99€</td>
+                        <td>
+                            <input class="quantity" type="text">
+                            <button class="delete"> Supprimer </button>
+                        </td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td>Tomatoes</td>
+                        <td>3.86€</td>
+                        <td>
+                            <input class="quantity" type="text">
+                            <button class="delete"> Supprimer </button>
+                        </td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" class="totalPrice">Total de la commande :</td>
+                        <td class="price"> 47€</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </form>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>&copy Fatou</p> <span>Date of publication: December 2023</span>
+
+        <div class="picture-footer"></div>
+
+        <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook" class="picture2">
+        <img src="https://cdn.pixabay.com/photo/2018/03/19/02/52/logo-instagram-3238899_1280.png" alt="insta"
+            class="picture2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png"
+            alt="Twitter" class="picture2">
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
